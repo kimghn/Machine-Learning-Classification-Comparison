@@ -1,2 +1,5 @@
-# Machine-Learning-Classification-Comparison
-Comparing different ML classification models on different datasets to see which one fits best
+# Machine Learning Classification Comparison
+
+I compared ML classification modules such as Naïve Bayes, K-Nearest Neighbor, Decision Tree, Random Forest, SVM, Logistic Regression, and ANN (Artificial Neural Network) using metrics such as accuracy, precision, recall, and confusion matrix to see which one performs best. On different datasets, the results vary: for smaller datasets such as Breat Cancer dataset with 370 samples, it is better to use SVM or Logistic Regression and avoid ANN, whereas for larger datasets, for instance BMW sales dataset with 50k samples, it is better to use Random Forest or Decision Tree but not KNN.
+For SVM on BRCA dataset, the accuracy, precision, and recall were respectively 50%, 20%, and 63%.
+For Random Forest and decision tree on BMW sales dataset, the accuracy, precision, and recall were 100% each.
